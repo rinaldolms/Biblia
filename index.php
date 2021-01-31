@@ -4,9 +4,9 @@
     date_default_timezone_set('America/Sao_Paulo');
 
     $host = "localhost";
-    $db = "id15735182_rinaldolms";
-    $user = "id15735182_rlms";
-    $pass = "?3LEla$5>MA!O2Dh";
+    $db = "";
+    $user = "";
+    $pass = "";
     try {
         $pdo = new PDO("mysql:host=$host; dbname=$db; charset=utf8", $user, $pass);
     }
